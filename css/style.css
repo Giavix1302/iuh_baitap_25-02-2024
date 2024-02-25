@@ -156,16 +156,18 @@ label {
 .adside {
   width: 30%;
   background-color: #fff;
+  overflow: hidden;
 }
 
 .adside > img {
   width: 100%;
   margin-top: 5px;
-  transition: all 1s ease;
+  transition: all .3s ease;
 }
 
 .adside > img:hover {
-  transform: rotate(20deg);
+  transform: scale(1.1);
+  box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.3);
 }
 
 .adside > h2 {
